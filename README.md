@@ -1,14 +1,3 @@
-# Learing PCAP3103
+# PYTHON Trainings
 
-- installation pyenv
-
-- learning lambda
-
-- collections
-  - map
-  - filter
-  - reduce
-  - reversed
-  - sorted
-
-- closures
+- pcap3103
