@@ -2,6 +2,8 @@
 
 Course: Certified Associate in Python Programming Certification(PCAP31-03)
 
+## Outline
+
 - installation pyenv
 
 - learning lambda
@@ -14,3 +16,9 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
   - sorted
 
 - closures
+- conditional expressions
+
+## LABS
+
+- collection processing lab
+- conditional expressions
