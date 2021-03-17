@@ -18,6 +18,7 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - closures
 - conditional expressions
 - creating and using python modules
+- script vs modules
 
 ## LABS
 
