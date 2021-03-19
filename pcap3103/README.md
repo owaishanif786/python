@@ -21,6 +21,7 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - script vs modules
 - hiding modules entities
 - modules search path
+- creating and using packages
 
 ## LABS
 
