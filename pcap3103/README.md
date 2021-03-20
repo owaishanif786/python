@@ -15,13 +15,14 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
   - reversed
   - sorted
 
-- closures
-- conditional expressions
-- creating and using python modules
-- script vs modules
-- hiding modules entities
-- modules search path
-- creating and using packages
+- Closures
+- Conditional expressions
+- Creating and using python modules
+- Script vs modules
+- Hiding modules entities
+- Modules search path
+- Creating and using packages
+- Distributing and installing packages
 
 ## LABS
 
