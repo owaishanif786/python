@@ -28,7 +28,9 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
   - what are objects
   - creating classes
   - constructors methods and decorators
+  - inheritance and super
   
+
 ## LABS
 
 - collection processing lab
