@@ -23,6 +23,7 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - Modules search path
 - Creating and using packages
 - Distributing and installing packages
+- Docstrings, Doctests and shebangs
 
 ## LABS
 
