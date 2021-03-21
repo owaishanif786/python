@@ -1,34 +1,3 @@
-# Distributing Installing packages
-
-## Outline
-
-- Distrubuting packages and setuptools
-- The pytho npackage index
-- pip
-- request PyPi Page
-
-PyPi: Python Package Index
-    Its like npm from where user can install packages
-   `pip3.7 install requests`
-   `pip --help`
-
-### Making Package installable
-
-- create `setup.py` in root dir
-- can use Package template from "Python Packaging Authority" [Example Project](https://github.com/pypa/sampleproject)
-
-Inside root project
-
-```
-mkdir -p helpers/src/helpers
-parent helpers folder is just container. we need to keep files inside helpers child folder
-cd helpers
-curl -O https://raw.githubusercontent.com/pypa/sampleproject/master/setup.py
-```
-
-The default contents of `setup.py` from example template project looks like this
-
-```markdown
 """A setuptools based setup module.
 
 See:
@@ -60,7 +29,7 @@ setup(
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name='sampleproject',  # Required
+    name='words',  # Required
 
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
@@ -184,23 +153,23 @@ setup(
     #
     # Similar to `install_requires` above, these must be valid existing
     # projects.
-    extras_require={  # Optional
-        'dev': ['check-manifest'],
-        'test': ['coverage'],
-    },
+    # extras_require={  # Optional
+    #     'dev': ['check-manifest'],
+    #     'test': ['coverage'],
+    # },
 
     # If there are data files included in your packages that need to be
     # installed, specify them here.
-    package_data={  # Optional
-        'sample': ['package_data.dat'],
-    },
+    # package_data={  # Optional
+    #     'sample': ['package_data.dat'],
+    # },
 
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:
     # http://docs.python.org/distutils/setupscript.html#installing-additional-files
     #
     # In this case, 'data_file' will be installed into '<sys.prefix>/my_data'
-    data_files=[('my_data', ['data/data_file'])],  # Optional
+    # data_files=[('my_data', ['data/data_file'])],  # Optional
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
@@ -224,37 +193,10 @@ setup(
     # issues, where the source is hosted, where to say thanks to the package
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
-    project_urls={  # Optional
-        'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
-        'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
-    },
+    # project_urls={  # Optional
+    #     'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
+    #     'Funding': 'https://donate.pypi.org',
+    #     'Say Thanks!': 'http://saythanks.io/to/example',
+    #     'Source': 'https://github.com/pypa/sampleproject/',
+    # },
 )
-
-```
-
-Note the `package_dir` where we specify the directory for packages  
-also note the `find_packages` where setup tools will find our packages
-
-### Two kind of distribution
-
-1. Eggs
-2. Wheels
-
-`pip3.7 install --upgrade wheel`
-
-If you want to get information about the package you need to below command it will get info from Readme.md. if does not exists then create README.md in src root folder.
-
-```bash
-python3.7 setup.py --help
-python3.7 setup.py --name` # it will let you know the name from setup.py file. 
-python3.7 setup.py --help-commands` 
-python3.7 setup.py bdist_wheel
-cd root_dir
-ls helpers/dist/helpers-1.0.0-py3-none-any.whl
-pip3.7 install helpers/dist/helpers-1.0.0-py3-none-any.whl --force-reinstall  #incase you make changes in package then you need to rebuild using bdist_wheel and reinstall
-```
-
-Now in our main.py if we try to use helpers package we will get error of no packag found. To solve this we will use pip install command specifying .whl file directory
-` pip3.7 install helpers/dist/helpers-1.0.0-py3-none-any.whl`
