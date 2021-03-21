@@ -24,10 +24,14 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - Creating and using packages
 - Distributing and installing packages
 - Docstrings, Doctests and shebangs
-
+- classes
+  - what are objects
+  - creating classes
+  - constructors methods and decorators
+  
 ## LABS
 
 - collection processing lab
 - conditional expressions
 - using modules
-- creating and using packages
+- pacakges lab
