@@ -4,7 +4,7 @@ class Bicycle(Vehicle):
 
     default_tire = 'tire'
 
-    def __init__(self, tires=[], distance_traveled=0, unit='mile'):
+    def __init__(self, tires=None, distance_traveled=0, unit='mile'):
         super().__init__(distance_traveled, unit)
         if not tires:
             #below default_tire property being access from parent. as we have it already available.

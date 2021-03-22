@@ -29,8 +29,8 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
   - creating classes
   - constructors methods and decorators
   - inheritance and super
+  - single and multiple inheritance
   
-
 ## LABS
 
 - collection processing lab
