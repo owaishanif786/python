@@ -31,6 +31,7 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
   - inheritance and super
   - single and multiple inheritance
   - Name Mangling
+  - Inspecting Objects
 
 ## LABS
 
