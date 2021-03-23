@@ -30,7 +30,8 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
   - constructors methods and decorators
   - inheritance and super
   - single and multiple inheritance
-  
+  - Name Mangling
+
 ## LABS
 
 - collection processing lab
