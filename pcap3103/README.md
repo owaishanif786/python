@@ -32,7 +32,9 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
   - single and multiple inheritance
   - Name Mangling
   - Inspecting Objects
-  - File I/O
+- File I/O read/write/modes
+- Bytes, bytesarray
+- Predefined Streams and handlers
 
 ## LABS
 
