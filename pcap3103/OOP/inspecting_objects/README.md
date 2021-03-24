@@ -39,7 +39,10 @@ The `hasattr(className, 'property_to_check')` method let us know if attribute ex
 ```shell
 >>> hasattr(Boat, 'boat_type')
 False
->>> hasattr(Car, 'default_tire')
+>>> hasattr(boat, 'boat_type') #here notice the different its giving true on instance but false on Class. 
+True
+>>> 
+>>> hasattr(Car, 'default_tire') #here notice even though its class still its giving true because we defined default_tire as classful attributes 
 True
 ```
 
