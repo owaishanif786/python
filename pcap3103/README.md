@@ -35,6 +35,8 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - File I/O read/write/modes
 - Bytes, bytesarray
 - Predefined Streams and handlers
+- Try Catch Else Finally
+- Raising Exceptions
 
 ## LABS
 
