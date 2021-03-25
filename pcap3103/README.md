@@ -37,6 +37,8 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - Predefined Streams and handlers
 - Try Catch Else Finally
 - Raising Exceptions
+- Custom Exceptions
+- Assertions
 
 ## LABS
 
