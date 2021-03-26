@@ -47,3 +47,4 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - using modules
 - pacakges lab
 - reading writing files
+- exception handling
