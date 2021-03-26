@@ -46,3 +46,4 @@ Course: Certified Associate in Python Programming Certification(PCAP31-03)
 - conditional expressions
 - using modules
 - pacakges lab
+- reading writing files

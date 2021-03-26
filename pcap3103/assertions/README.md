@@ -19,4 +19,3 @@ AssertionError: shorter length
 ## Assertion is a debugging Tool
 
 While running you can skip assertion statements by passing `-O` argument or `-OO` if you want to remove docstrings.
-
