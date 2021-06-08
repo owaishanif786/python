@@ -19,5 +19,13 @@ sudo docker exec -i postgres psql postgres -U demo -c "CREATE DATABASE notes;"
 # SQLAlchemy used as orm
 create config.py and .env with db details and environment variables
 
+pipenv install psycopg2-binary Flask-SQLAlchemy Flask-Migrate
+
+touch models.py
+    #add models details
+
+flask db init
+flask db migrate
+flask db upgrade
 
 ```
