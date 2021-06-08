@@ -45,6 +45,6 @@ from math import pi as p
 #exit
 #pipenv shell
 
-
+#psql postgres://cloud_user:bingodingo@3.8.172.53:5432/sample -c "SELECT count(id) FROM employees;"
 
 
